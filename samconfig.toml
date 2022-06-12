@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "s3-lambda"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-82ze4xmnrgf4"
+s3_prefix = "s3-lambda"
+region = "ap-northeast-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
